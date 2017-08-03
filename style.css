@@ -1,0 +1,219 @@
+#welcome{
+	height:50%;
+	width:100%;
+	margin:auto;
+	background: url("img/banner-80.jpg") no-repeat;
+	display: table;
+	top:0;
+	position: relative;
+	background-size: cover;
+	filter: brightness(80%);
+
+}
+
+.jumbotron {
+	height:710px !important;
+	margin-: 80px;
+	margin-bottom: 10px;
+}
+
+.small_imgbox{
+	height: 95px;
+}
+
+.container{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#welcome h1{
+	vertical-align: middle !important;
+	color: #ffffff;
+	display: table-cell;
+}
+
+h6{
+	color: #00A298;
+}
+
+.popover-title {
+    background-color: #00A298;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align:center;
+    
+}
+.popover {
+	width: 200px;
+}
+.gallary{
+	background-color: #f1f1f1 !important;
+	width: 100%;
+}
+.big_imgbox{
+	text-align: center !important;
+}
+.col-sm-4 h6{
+	min-height: 30px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.show_btn{
+	padding: 5px;
+	width: 90%;
+	margin-right: 5px;
+	border:solid;
+	vertical-align: middle;
+	cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    border-color: #000000;
+    color: #000000;
+    margin-bottom: 20px;
+	
+}
+.show_btn:hover {
+	text-decoration: none;
+	border-color: #000000;
+	background-color: #00A298;
+    color: #000000;}
+
+.table th{
+	background-color: #d2efed;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+	line-height: 0.2;
+	color: #00A298;
+}
+
+.table{
+	border:none;
+	border-top: 0px !important;
+
+}
+.gpcol{
+	color: #00A298;
+	font-size: 16px;
+	text-align: left !important;
+}
+
+.footer-block{
+	color: #ffffff;
+	font-size: 12px;
+	padding-bottom: 20px;
+	padding-top: :20px;
+	background-color: #00A298;
+	width: 100%;
+	text-align: left;
+}
+.tbl_image{
+	height: 30px;
+	width: 36px;
+}
+.footer-block p{
+	font-size: 12px;
+	margin-top:15px;
+	margin-bottom: 10px;
+	margin-left:8%; 
+}
+
+.final_btn{
+	padding: 10px;
+	width: 200px;
+	margin-right: 5px;
+	vertical-align: middle;
+	cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: #00A298;
+    color: #ffffff;
+	
+}
+.final_btn:hover {
+	text-decoration: none;
+	background-color: #00A298;
+    color: #000000;}
+
+    /*----- pop up box CSS ----*/
+    /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #00A298;
+    color: white;
+
+}
+
+.modal-body {padding: 2px 16px;}
+#resultbody{
+	text-align: center;
+	height: 40%;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: 2em;
+	color: #00A298;
+	padding-bottom: 50px;
+}
+
+/* ---------------- End of Popup Box --------*/
